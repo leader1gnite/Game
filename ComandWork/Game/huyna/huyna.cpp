@@ -1,18 +1,22 @@
 ﻿#include <SFML/Graphics.hpp>
+#include <iostream>
+
+using namespace sf;
+using namespace std;
 
 int main()
 {
-    sf::RenderWindow window(sf::VideoMode(640, 480), "Pasha pidor");
-    sf::CircleShape shape;
+    RenderWindow window(VideoMode(1920, 1080), "RETARD");
+    CircleShape shape;
     shape.setRadius(40.f);
     shape.setPosition(100.f, 100.f);
-    shape.setFillColor(sf::Color::Cyan);
+    shape.setFillColor(Color::Cyan);
     while (window.isOpen())
     {
-        sf::Event event;
+        Event event;
         while (window.pollEvent(event))
         {
-            if (event.type == sf::Event::Closed)
+            if (event.type == Event::Closed)
                 window.close();
         }
         window.clear();
