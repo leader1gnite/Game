@@ -1,2 +1,4 @@
 C:\Users\MRem\Documents\GitHub\Game\Game\ComandWork\Game\huyna\x64\Debug\huyna.exe
 C:\Users\MRem\Documents\GitHub\Game\Game\ComandWork\Game\huyna\x64\Debug\huyna.pdb
+C:\Users\rehio\Documents\GitHub\Game\ComandWork\Game\huyna\x64\Debug\huyna.exe
+C:\Users\rehio\Documents\GitHub\Game\ComandWork\Game\huyna\x64\Debug\huyna.pdb
